@@ -1,5 +1,5 @@
 const sgMail=require('@sendgrid/mail')
-const user=require('../router/userRoute')
+
 
 
 sgMail.setApiKey(process.env.SENDGRID_KEY_API)
